@@ -31,3 +31,6 @@ print(a._Mediatheque__pret('Julien','Les Misérables','Victor Hugo'))
 print(a._Mediatheque__pret('Julien','','Victor Hugo'))
 a._Mediatheque__pret('Julien','Liberté','')
 print(a._Mediatheque__compte_pret())
+
+a._Mediatheque__ajouter_input()
+a._Mediatheque__recherche_auteur('Rah')
