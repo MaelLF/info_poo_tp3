@@ -1,5 +1,10 @@
 from classdef import *
 
+#Auteur : Le Floch Mael
+#Date de création : 26 Février 2024
+
+#Objectif du programme : Tests de certaines fonctions de la Classe Mediatheque
+
 a=Mediatheque()
 livre=Livre('Les Misérables','Victor Hugo',2000,192,'Pathé')
 cd =Cd('Liberté','',0,15,1)
@@ -8,7 +13,7 @@ dvd = Dvd('Les Misérables le film','Victor Hugo',2000,198)
 print(dvd)
 print(livre)
 print(cd)
-article = Article_de_Magazine('Le bazard','Victor Hugo',1902,'Les grands savants',12,1)
+article = Article_de_Magazine('Le bazard','Victor Hugo',1902,'Les grands savants',12,[1,2])
 a._Mediatheque__ajouter_medium(livre)
 a._Mediatheque__ajouter_medium(cd)
 a._Mediatheque__ajouter_medium(cd2)

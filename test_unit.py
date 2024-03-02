@@ -3,6 +3,12 @@ from unittest import mock
 import io
 from classdef import *
 
+
+#Auteur : Le Floch Mael
+#Date de création : 26 Février 2024
+
+#Objectif du programme : Création de classes permettant les tests unitaires des fonctions de la Classe Mediatheque
+
 class TestMediatheque(unittest.TestCase):
     def setUp(self):
         self.mediatheque = Mediatheque()
